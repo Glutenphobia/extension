@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Ext Starter",
-    "description": "The name of the extension."
+    "message": "Gluten-Phobia",
+    "description": "An extension that detects images of food that contains gluten"
   },
   "appDescription": {
-    "message": "Boilerplate for building cross browser extensions",
+    "message": "An extension that detects images of food that contains gluten",
     "description": "The description of the extension."
   },
   "btnTooltip": {
-    "message": "Ext Starter",
+    "message": "Gluten-Phobia",
     "description": "Tooltip for the button."
   }
 }

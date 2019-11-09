@@ -9,28 +9,13 @@
   },
   "default_locale": "en",
   "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
+    "page": "background-page.html"
   },
-  "permissions": [
-    "tabs",
-    "storage",
-    "http://*/*",
-    "https://*/*"
-  ],
-  "options_ui": {
-    "page": "options.html"
-  },
+  "permissions": ["tabs", "storage", "http://*/*", "https://*/*"],
   "content_scripts": [
     {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "scripts/contentscript.js"
-      ],
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["scripts/contentscript.js"],
       "run_at": "document_end",
       "all_frames": false
     }
@@ -40,9 +25,6 @@
       "19": "icons/icon-19.png",
       "38": "icons/icon-38.png"
     },
-    "default_title": "Extension Boilerplate",
-    "default_popup": "popup.html"
+    "default_title": "Glutenphobia"
   }
 }
-
-
